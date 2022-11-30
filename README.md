@@ -15,13 +15,20 @@ Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
 - [ ] Docker Back-end
 - [ ] Docker DB
 
-
-### Ferramentas Utilizadas no Front-End
+ * Ferramentas Utilizadas no Front-End
+ 
     [Axios](https://axios-http.com/ptbr/docs/intro)
+    
     [React-bootstrap](https://react-bootstrap.github.io/) 
+    
     [React + TS](https://www.typescriptlang.org/pt/docs/handbook/react.html)
-### Ferramentas Utilizadas no Back-End
+    
+* Ferramentas Utilizadas no Back-End
+
     [Axios](https://axios-http.com/ptbr/docs/intro)
+    
     [Cors](https://www.npmjs.com/package/cors)
+    
     [Express](https://www.npmjs.com/package/express)
+    
     [Mysql2](https://www.npmjs.com/package/mysql2)

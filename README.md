@@ -10,7 +10,7 @@ Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
 * A database deve ser criada utilizando um ORM(Sequelize)
 - [ ] Model e Migrations
 
-* Todo o projeto deve rodar utilizando docker*
+* Todo o projeto deve rodar utilizando docker
 - [ ] Docker Front-end
 - [ ] Docker Back-end
 - [ ] Docker DB

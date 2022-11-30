@@ -7,10 +7,10 @@ Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
 * Utilizar o método TDD para criar os testes
 - [ ] Testes utilizando o jest
 
-*A database deve ser criada utilizando um ORM(Sequelize)*
+* A database deve ser criada utilizando um ORM(Sequelize)
 - [ ] Model e Migrations
 
-*Todo o projeto deve rodar utilizando docker*
+* Todo o projeto deve rodar utilizando docker*
 - [ ] Docker Front-end
 - [ ] Docker Back-end
 - [ ] Docker DB

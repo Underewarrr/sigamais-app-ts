@@ -2,6 +2,12 @@
 Em construção
 
 Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
+ 
+ ## Caminho de desenvolvimento
+ 
+ - [x] Configuração Inicial do Front e Back.
+ * Full-Docker configurado.
+ * Dependencias instaladas.
 
 ## Estruturas do projeto
 * Utilizar o método TDD para criar os testes

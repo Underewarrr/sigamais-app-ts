@@ -7,7 +7,8 @@ Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
  
  - [x] Configuração Inicial do Front e Back.
  * Full-Docker configurado.
- * Dependencias instaladas.
+ * Dependencias configuradas.
+ * Ambiente node configurado.
 
 ## Estruturas do projeto
 * Utilizar o método TDD para criar os testes

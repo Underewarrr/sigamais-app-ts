@@ -5,27 +5,26 @@ Em construção
 #### Front
 [![Docker Image CI Front-End](https://github.com/Underewarrr/sigamais-app-ts/actions/workflows/docker-image-frontend.yml/badge.svg)](https://github.com/Underewarrr/sigamais-app-ts/actions/workflows/docker-image-frontend.yml)
 
-
 Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
  
  ## Caminho de desenvolvimento
  
  - [x] Configuração Inicial do Front e Back.
- * Full-Docker configurado.
  * Dependencias configuradas.
  * Ambiente node configurado.
+ 
+### Front-end
+ - [x] Docker compose
+ - [ ] Pagina de Login https://github.com/Underewarrr/sigamais-app-ts/pull/1
+ 
+### Back-end
+ - [x] Docker compose
 
 ## Estruturas do projeto
 * Utilizar o método TDD para criar os testes
-- [ ] Testes utilizando o jest
-
 * A database deve ser criada utilizando um ORM(Sequelize)
-- [ ] Model e Migrations
-
 * Todo o projeto deve rodar utilizando docker
-- [x] Docker Front-end
-- [x] Docker Back-end
-- [x] Docker DB
+
 
  * Ferramentas Utilizadas no Front-End
  

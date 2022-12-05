@@ -7,7 +7,7 @@ Em construção
 
 Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
  
- ## Caminho de desenvolvimento
+ # Caminho de desenvolvimento
  
  - [x] Configuração Inicial do Front e Back.
  * Dependencias configuradas.

@@ -2,7 +2,7 @@
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 // import axios from "axios";
-import { Alert, Container, Button } from 'react-bootstrap';
+import { Alert, Container, Button, Card } from 'react-bootstrap';
 import { Form as FormB } from 'react-bootstrap';
 
 const validadtionSchema = Yup.object().shape({
@@ -19,32 +19,41 @@ const handleClickLogin = (values: any) => {
 export const Login = () => {
   
   return (
-<Container>
   <FormB>
     <Formik
       initialValues={{}}
       onSubmit={handleClickLogin}
-        validationSchema={validadtionSchema}   
+      validationSchema={validadtionSchema}   
       >
+  <Card>
+    <Card.Header>
+      Login
+    </Card.Header>
     <Form>
+        <Container>
+          <center>
+    <Card.Body>
       <FormB.Group className="mb-3" controlId="formBasicEmail">
-        <FormB.Label>Email address</FormB.Label>
-        <Field  name="email"type="email" placeholder="Enter email" />
+        <FormB.Label>Put Email : </FormB.Label>
+        <Field name="email"type="email" placeholder=" Example@email.com" />
+        <br/>
         <FormB.Text className="text-muted">
-          We'll never share your email with anyone else.
+          Nunca compartilhe sua senha.
         </FormB.Text>
       </FormB.Group>
 
       <FormB.Group className="mb-3" controlId="formBasicPassword">
-        <FormB.Label>Password</FormB.Label>
-        <Field name="password" type="password" placeholder="Password" />
+        <FormB.Label>Password : </FormB.Label>
+        <Field name="password" type="password" placeholder=" Password" />
       </FormB.Group>
-      <FormB.Group className="mb-3" controlId="formBasicCheckbox">
-        <FormB.Check type="checkbox" label="Check me out" />
-      </FormB.Group>
+      </Card.Body>
+      <Card.Footer>
       <Button variant="primary" type="submit">
         Submit
       </Button>
+      </Card.Footer>
+      </center>
+      </Container>
       <ErrorMessage
             name="password"
             component={() => (
@@ -56,8 +65,8 @@ export const Login = () => {
             )}
             />
     </Form>
+    </Card>
     </Formik>
   </FormB>
-</Container>
     )
 }

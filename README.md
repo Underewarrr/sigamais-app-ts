@@ -18,6 +18,7 @@ Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
  - [ ] Pagina de Login https://github.com/Underewarrr/sigamais-app-ts/pull/1
  
 ### Back-end
+ - [x] ORM Configurado
  - [x] Docker compose
 
 ## Estruturas do projeto
@@ -45,3 +46,5 @@ Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
     [Express](https://www.npmjs.com/package/express)
     
     [Mysql2](https://www.npmjs.com/package/mysql2)
+    
+    [Sequelize](https://sequelize.org/)

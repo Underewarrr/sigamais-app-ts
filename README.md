@@ -18,6 +18,7 @@ Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
  - [x] Pagina de Login https://github.com/Underewarrr/sigamais-app-ts/pull/1
  
 ### Back-end
+* Backend deve seguir o padr
  - [x] ORM Configurado
  - [x] Docker compose
  - [ ] Sistema de login

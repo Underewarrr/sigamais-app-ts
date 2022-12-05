@@ -23,9 +23,9 @@ Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
 - [ ] Model e Migrations
 
 * Todo o projeto deve rodar utilizando docker
-- [ ] Docker Front-end
-- [ ] Docker Back-end
-- [ ] Docker DB
+- [x] Docker Front-end
+- [x] Docker Back-end
+- [x] Docker DB
 
  * Ferramentas Utilizadas no Front-End
  

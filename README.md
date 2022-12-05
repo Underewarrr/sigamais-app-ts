@@ -20,6 +20,9 @@ Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
 ### Back-end
  - [x] ORM Configurado
  - [x] Docker compose
+ - [ ] Sistema de login
+* O sistema de login deve utilizar JWT para autenticar.
+* A senha deve ser criptografada com Bcript ao salvar no banco.
 
 ## Estruturas do projeto
 * Utilizar o método TDD para criar os testes

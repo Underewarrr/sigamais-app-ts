@@ -14,21 +14,21 @@ Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
  * Ambiente node configurado.
  
 ### Front-end
- - [x] Docker compose
- - [x] Pagina de Login https://github.com/Underewarrr/sigamais-app-ts/pull/1
+ - [x] Docker compose.
+ - [x] Pagina de Login https://github.com/Underewarrr/sigamais-app-ts/pull/1.
  
 ### Back-end
 * Backend deve seguir o padrão MSC
- - [x] ORM Configurado
- - [x] Docker compose
- - [ ] Sistema de login
+ - [x] ORM Configurado.
+ - [x] Docker compose.
+ - [ ] Sistema de login.
 * O sistema de login deve utilizar JWT para autenticar.
 * A senha deve ser criptografada com Bcript ao salvar no banco.
 
 ## Estruturas do projeto
-* Utilizar o método TDD para criar os testes
-* A database deve ser criada utilizando um ORM(Sequelize)
-* Todo o projeto deve rodar utilizando docker
+* O projeto deve conter testes.
+* A database deve ser criada utilizando um ORM.
+* Todo o projeto deve rodar utilizando docker.
 
 
  * Ferramentas Utilizadas no Front-End

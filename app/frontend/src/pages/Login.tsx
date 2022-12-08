@@ -35,7 +35,7 @@ export const Login = () => {
     <Card.Body>
       <FormB.Group className="mb-3" controlId="formBasicEmail">
         <FormB.Label>Put Email : </FormB.Label>
-        <Field name="email"type="email" placeholder=" Example@email.com" />
+        <FormB.Control name="email"type="email" placeholder=" Example@email.com" />
         <br/>
         <FormB.Text className="text-muted">
           Nunca compartilhe sua senha.
@@ -44,7 +44,7 @@ export const Login = () => {
 
       <FormB.Group className="mb-3" controlId="formBasicPassword">
         <FormB.Label>Password : </FormB.Label>
-        <Field name="password" type="password" placeholder=" Password" />
+        <FormB.Control name="password" type="password" placeholder=" Password" />
       </FormB.Group>
       </Card.Body>
       <Card.Footer>

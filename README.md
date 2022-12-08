@@ -39,10 +39,6 @@ Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
     
     [React + TS](https://www.typescriptlang.org/pt/docs/handbook/react.html)
     
-    [Yup](https://www.npmjs.com/package/yup)
-    
-    [Formik](https://formik.org/)
-    
 * Ferramentas Utilizadas no Back-End
 
     [Axios](https://axios-http.com/ptbr/docs/intro)

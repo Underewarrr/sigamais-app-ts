@@ -1,9 +1,7 @@
 // import React, {useEffect, useState} from 'react'
-import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 // import axios from "axios";
-import { Alert, Container, Button, Card } from 'react-bootstrap';
-import { Form as FormB } from 'react-bootstrap';
+import { Alert, Container, Button, Card, Form } from 'react-bootstrap';
 
 const validadtionSchema = Yup.object().shape({
   email: Yup.string()
@@ -19,33 +17,26 @@ const handleClickLogin = (values: any) => {
 export const Login = () => {
   
   return (
-  <FormB>
-    <Formik
-      initialValues={{}}
-      onSubmit={handleClickLogin}
-      validationSchema={validadtionSchema}   
-      >
+  <Form>
   <Card>
     <Card.Header>
       Login
     </Card.Header>
-    <Form>
         <Container>
           <center>
     <Card.Body>
-      <FormB.Group className="mb-3" controlId="formBasicEmail">
-        <FormB.Label>Put Email : </FormB.Label>
-        <FormB.Control name="email"type="email" placeholder=" Example@email.com" />
+      <Form.Group className="mb-3" controlId="FormasicEmail">
+        <Form.Label>Put Email : </Form.Label>
+        <Form.Control name="email"type="email" placeholder=" Example@email.com" />
         <br/>
-        <FormB.Text className="text-muted">
+        <Form.Text className="text-muted">
           Nunca compartilhe sua senha.
-        </FormB.Text>
-      </FormB.Group>
-
-      <FormB.Group className="mb-3" controlId="formBasicPassword">
-        <FormB.Label>Password : </FormB.Label>
-        <FormB.Control name="password" type="password" placeholder=" Password" />
-      </FormB.Group>
+        </Form.Text>
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="FormasicPassword">
+        <Form.Label>Password : </Form.Label>
+        <Form.Control name="password" type="password" placeholder=" Password" />
+      </Form.Group>
       </Card.Body>
       <Card.Footer>
       <Button variant="primary" type="submit">
@@ -54,19 +45,7 @@ export const Login = () => {
       </Card.Footer>
       </center>
       </Container>
-      <ErrorMessage
-            name="password"
-            component={() => (
-                <div className="alert alert-danger" role="alert">
-                    <Alert variant="danger">
-                        Insira uma senha ou email valido
-                    </Alert>
-                </div>
-            )}
-            />
-    </Form>
     </Card>
-    </Formik>
-  </FormB>
+  </Form>
     )
 }

@@ -18,12 +18,15 @@ Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
 ### Front-end
  - [x] Docker compose.
  - [x] Pagina de Login https://github.com/Underewarrr/sigamais-app-ts/pull/1.
+ - [ ] Pagina de Registro
  
 ### Back-end
 * Backend deve seguir o padrão MSC
  - [x] ORM Configurado.
  - [x] Docker compose.
  - [ ] Sistema de login https://github.com/Underewarrr/sigamais-app-ts/pull/3.
+ - [ ] Sistema de Registro
+
 * O sistema de login deve utilizar JWT para autenticar.
 * A senha deve ser criptografada com Bcript ao salvar no banco.
 

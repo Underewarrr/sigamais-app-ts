@@ -1,5 +1,7 @@
 import { Sequelize, Model, INTEGER, STRING } from 'sequelize';
-import db from '.';
+import * as config from '../../config/database';
+
+const sequelize = new Sequelize(config)
 
 class Users extends Model {
   id!: number;
@@ -32,7 +34,7 @@ Users.init({
     type: STRING(100),
   },
 }, {
-  sequelize: db,
+  sequelize: sequelize,
   modelName: 'users',
   timestamps: false,
 });

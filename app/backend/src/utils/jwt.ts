@@ -15,7 +15,7 @@ const verifyToken = (token: string) => {
   try {
     const data = JWT.verify(token, process.env.JWT_SECRET as string);
 
-    return { type: null, data };
+    return { type: 'AUTH', data };
   } catch (_e) {
     return { type: 'NOT_AUTH', message: 'Token must be a valid token' };
   }

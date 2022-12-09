@@ -3,17 +3,6 @@ import * as Yup from 'yup';
 // import axios from "axios";
 import { Alert, Container, Button, Card, Form } from 'react-bootstrap';
 
-const validadtionSchema = Yup.object().shape({
-  email: Yup.string()
-      .email('Invalid email')
-      .required('Required'),
-  password: Yup.string().min(6, 'Password must be at least 6 characters')
-})
-
-const handleClickLogin = (values: any) => { 
-  console.log(values)
-}
-
 export const Login = () => {
   
   return (
@@ -26,7 +15,7 @@ export const Login = () => {
           <center>
     <Card.Body>
       <Form.Group className="mb-3" controlId="FormasicEmail">
-        <Form.Label>Put Email : </Form.Label>
+        <Form.Label>Email : </Form.Label>
         <Form.Control name="email"type="email" placeholder=" Example@email.com" />
         <br/>
         <Form.Text className="text-muted">
@@ -40,7 +29,7 @@ export const Login = () => {
       </Card.Body>
       <Card.Footer>
       <Button variant="primary" type="submit">
-        Submit
+        Login
       </Button>
       </Card.Footer>
       </center>

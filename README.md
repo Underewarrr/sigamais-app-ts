@@ -27,15 +27,6 @@ Este app sera desenvolvido para testar minhas habilidades com POO e SOLID.
  - [x] Sistema de login https://github.com/Underewarrr/sigamais-app-ts/pull/3.
  - [ ] Sistema de Registro
 
-* O sistema de login deve utilizar JWT para autenticar.
-* A senha deve ser criptografada com Bcript ao salvar no banco.
-
-## Estruturas do projeto
-* O projeto deve conter testes.
-* A database deve ser criada utilizando um ORM.
-* Todo o projeto deve rodar utilizando docker.
-
-
  * Ferramentas Utilizadas no Front-End
  
     [Axios](https://axios-http.com/ptbr/docs/intro)

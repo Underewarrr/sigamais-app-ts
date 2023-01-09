@@ -5,7 +5,6 @@ import { NavBar } from "./components/NavBar";
 export const Home = () => {
   return (
     <Card>
-        Home Card
         <NavBar/>
     </Card>
   );

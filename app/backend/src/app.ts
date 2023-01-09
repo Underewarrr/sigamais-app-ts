@@ -1,5 +1,7 @@
 import * as express from 'express';
 
+import loginRoute from './routes/login';
+
 class App {
   public app: express.Express;
 
@@ -9,6 +11,7 @@ class App {
     this.config();
 
     this.app.get('/', (req, res) => res.json({ ok: true }));
+    this.app.use('/login', loginRoute)
   }
 
   private config():void {

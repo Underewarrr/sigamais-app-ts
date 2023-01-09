@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { requestLogin, setToken } from '../services/requests';
 
-// import axios from "axios";
 import { Alert, Container, Button, Card, Form } from 'react-bootstrap';
 import { Navigate } from 'react-router-dom';
 

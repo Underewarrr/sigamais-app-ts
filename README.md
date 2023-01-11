@@ -1,6 +1,7 @@
 # sigamais-app-ts
 Em construção
 
+![Git Hub Repo Size](https://img.shields.io/github/repo-size/underewarrr/sigamais-app-ts)<br>
 ## App Health
 #### Front
 [![Docker Image CI Front-End](https://github.com/Underewarrr/sigamais-app-ts/actions/workflows/docker-image-frontend.yml/badge.svg)](https://github.com/Underewarrr/sigamais-app-ts/actions/workflows/docker-image-frontend.yml)

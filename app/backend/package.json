@@ -11,7 +11,7 @@
     "start": "node .",
     "predev": "npm run build && npm run db:reset",
     "dev": "nodemon --watch \"./src/**\" ./src/server.ts",
-  "postinstall": "if [ ! -z 'cat ./packages.npm' ]; then npm i --ignore-scripts $(cat ./packages.npm); fi"
+    "postinstall": "if [ ! -z 'cat ./packages.npm' ]; then npm i --ignore-scripts $(cat ./packages.npm); fi"
   },
   "devDependencies": {
     "@types/cors": "2.8.12",
@@ -31,7 +31,8 @@
     "dotenv": "10.0.0",
     "express": "^4.17.1",
     "joi": "^17.7.0",
-    "jsonwebtoken": "8.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
     "mysql2": "2.3.3",
     "sequelize": "6.25.5"
   },

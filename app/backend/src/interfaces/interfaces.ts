@@ -4,6 +4,7 @@ export interface IUser {
     role: string
     email: string;
     password?: string;
+    token: number;
   };  
 
 export interface IJwt {

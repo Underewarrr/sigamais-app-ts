@@ -1,0 +1,8 @@
+.P_CARD {
+  max-width: 55rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}

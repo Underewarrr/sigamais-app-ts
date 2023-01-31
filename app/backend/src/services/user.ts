@@ -22,6 +22,7 @@ const userLogin = async (email: string, password: string) => {
     if (!verify) {
       return { code: 401, type: 'NOT_AUTH', message: 'Email ou senha incorretas' };
     }
+    //
    
     const createToken = (token: number) => {
       const tokenData = { id: data.id, username: data.username, email: data.email };
